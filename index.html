@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wikiSearch</title>
+</head>
+
+<body>
+  <main>
+    <h1 class="offscreen">wikiSearch Powered by Wikipedia</h1>
+    <section class="searchEntry">
+      <h2 class="offscreen">Search Term Entry</h2>
+      <div class="logo" aria-hidden="true">
+        SearchMe!
+      </div>
+      <form id="searchBar" class="searchBar">
+        <label for="search" class="offscreen">Enter a search term or phrase</label>
+        <input type="text" id="search" autocomplete="off">
+        <!-- x/clear button. display none at first -->
+        <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms">X</div>
+        <button id="searchButton" class="button searchButton" type="submit" aria-label="Submit button">Search</button>
+      </form>
+    </section>
+    <section class="searchResults">
+
+    </section>
+  </main>
+</body>
+
+</html>
